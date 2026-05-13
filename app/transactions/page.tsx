@@ -102,7 +102,7 @@ export default function Page() {
       <ProfileBanner />
 
       {/* Filters */}
-      <div className="sticky top-78 z-50 my-4 flex flex-wrap items-center gap-2 bg-background py-3">
+      <div className="sticky top-73 rounded-lg px-4 z-50 my-4 flex flex-wrap items-center gap-2 bg-background py-3">
         <SearchFilter
           value={filters.search}
           onChange={(val) => setFilters({ search: val })}
