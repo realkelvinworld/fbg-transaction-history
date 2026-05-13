@@ -122,7 +122,7 @@ export default function TransactionCard({
               ? " bg-emerald-50  border-emerald-100 text-emerald-700 dark:bg-emerald-900/20 dark:text-emerald-400"
               : status === "pending"
                 ? "border-amber-100 bg-amber-100 text-amber-600 dark:bg-amber-900/20 dark:text-amber-400"
-                : "border-red-100 bg-destructive/10 text-destructive dark:bg-destructive/20"
+                : "border-destructive-100 bg-destructive/10 text-destructive dark:bg-destructive/20"
           }
         >
           {status.toLocaleUpperCase()}
