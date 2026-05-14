@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Transaction History | FBN Ghana",
-  description: "Your FBN Ghana account statement at a glance.",
+  title: "Transaction History | First Bank Ghana",
+  description: "Your First Bank Ghana account statement at a glance.",
   icons: {
     icon: "/images/logo-blue.png",
   },
